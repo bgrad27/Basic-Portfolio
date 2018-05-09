@@ -7,77 +7,82 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
 </head>
 
 <body>
-    
+
     <header id="masthead">
 
-        <div class= "container">
+        <div class="container">
             <a href=index.html id="logo">Brian Grad</a>
 
-                <nav>
-        
-                    <a href="index.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
-            
+            <nav>
 
-                </nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+
+
+            </nav>
 
         </div>
-    
+
     </header>
-    
+
     <div id="main-container" class="container">
 
 
-    <section class="main-section">
-        <h1>About Me</h1>
-        
-        <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAA1PAAAAJDAzZWFiOGU5LWI3NGYtNDljNy1hMmVmLTdiMjE4MDVlMzJjYg.jpg"
-        class="auth-image" alt="Brian Pic">
+        <section class="main-section">
+            <h1>About Me</h1>
 
-        <p>
-            I'm a recent graduate from DePaul University with a degree in Economics. I started off my undergrad career at University of Colorado.
-            After going to school there for two years I decided I wanted to make the career move of becoming a fireman. I left Colorado and came home
-            to take an EMT class at my local community college. While doing my clinicals, I realized that I don't really like to touch people I don't 
-            know. This resulted in me going back to school and getting my degree from DePaul.
-        </p>
+            <img id="GradPic" src="data:image/jpeg;base64,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"
+                class="auth-image" alt="Brian Pic">
 
-        <p>
-            After graduating I began looking for a job. While on the job hunt, it became clear to me that I wasn't getting any attention from jobs that 
-            interested me. As a result, I decided to take a chance on something I've always been interested in and join the Northwestern Coding Bootcamp. 
-            Upon completion of the bootcamp, I hope to find a job as a developer or software engineer. 
-        </p>
-    </section>
+            <p>
+                I'm a recent graduate from DePaul University with a degree in Economics. I started off my undergrad career at University
+                of Colorado. After going to school there for two years I decided I wanted to make the career move of becoming
+                a fireman. I left Colorado and came home to take an EMT class at my local community college. While doing
+                my clinicals, I realized that I don't really like to touch people I don't know. This resulted in me going
+                back to school and getting my degree from DePaul.
+            </p>
 
-    <section class="sidebar">
+            <p>
+                After graduating I began looking for a job. While on the job hunt, it became clear to me that I wasn't getting any attention
+                from jobs that interested me. As a result, I decided to take a chance on something I've always been interested
+                in and join the Northwestern Coding Bootcamp. Upon completion of the bootcamp, I hope to find a job as a
+                developer or software engineer.
+            </p>
+        </section>
 
-        <div id="connect">
+        <section class="sidebar">
 
-            <h2>Connect with Me</h2>
+            <div id="connect">
 
-            <img id="facebook" src="https://cdn0.iconfinder.com/data/icons/social-network-7/50/3-128.png" class="facebook" alt="Facebook">
+                <h2>Connect with Me</h2>
 
-            <img id="facebook" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-128.png" class="linkedin" alt="LinkedIn">
+                <img id="facebook" src="https://cdn0.iconfinder.com/data/icons/social-network-7/50/3-128.png" class="facebook" alt="Facebook">
 
-            <img id="facebook" src="https://cdn2.iconfinder.com/data/icons/micon-social-pack/512/github2-128.png" class="GitHub" alt="GitHub">
+                <img id="facebook" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-128.png" class="linkedin" alt="LinkedIn">
 
-        </div>
+                <img id="facebook" src="https://cdn2.iconfinder.com/data/icons/micon-social-pack/512/github2-128.png" class="GitHub" alt="GitHub">
 
-    </section>
+            </div>
+
+        </section>
 
     </div>
 
     <footer>
-        
+
         <div class="container">
-            
+
             &copy; Copyright 2018 Brian Grad
-        
+
         </div>
-    
+
     </footer>
 
 </body>

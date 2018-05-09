@@ -12,7 +12,7 @@ body{
 
 .container{
     width: 100%;
-    max-width: 960px;
+    max-width: 1024px;
     margin: 0 auto;
     clear: both;
 }
@@ -70,8 +70,9 @@ h2, h3{
 }
 
 nav{
+    margin-top: 20px;    
     float: right;
-    margin-top: 20px;
+
 
 }
 
@@ -81,8 +82,7 @@ nav a{
     margin-left: 15px;
     display: inline-block;
     border-left: 1px solid #efefef;
-    padding-left: 15px;
-    line-height: 15px;
+
 
 }
 
@@ -149,14 +149,7 @@ h3, .sidebar, h2{
     width: 50px;
 }
 
-footer{
-    background: #666;
-    color: #fff;
-    padding: 30px 0;
-    clear: both;
-    border-top: 8px solid #4aaaa5;
-    color: #ccd;
-}
+
 
 .work{
     width: 274px;
@@ -233,3 +226,4 @@ input[type=submit]{
     cursor: pointer;
     
 }
+
